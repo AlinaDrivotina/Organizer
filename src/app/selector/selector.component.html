@@ -1,0 +1,7 @@
+<p>
+    <i class="material-icons" (click)="go(-1)">arrow-left</i>
+    <span>
+        {{ dateService.date | async | moment}}
+    </span>
+    <i class="material-icons" (click)="go(1)">arrow-right</i>
+</p>

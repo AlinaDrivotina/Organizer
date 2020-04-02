@@ -1,0 +1,18 @@
+.div {
+    border: 1px solid red;
+    padding: 5rem;
+    margin: auto;
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    button {
+        width: 100px;
+        border: none;
+        background-color: rgba(43, 255, 0, 0.767);
+        color: darkblue;
+        height: 30px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+}
